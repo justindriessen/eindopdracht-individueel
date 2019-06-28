@@ -1,0 +1,444 @@
+/* 
+reset sheet
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    color: inherit;
+}
+.clear {
+    clear: both;
+}
+
+
+/* main */
+header{
+    width: 100%;
+    height: 100px;
+    background: white;
+    color: #1D00FF;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header img{
+    float: left;
+    margin: 25px 0 25px 140px;
+    height: 50px;
+    color: #1D00FF;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header ul{
+    float: right;
+    margin-right: 150px;
+}
+header ul li{
+    float: left;
+    margin-left: 125px;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+.hImage{
+    margin-top: 100px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.hImage img{
+    margin-top: -200px;
+}
+
+.fade{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient( rgb(29, 0, 255,0.85), rgb(0, 118, 255,0.85));
+}
+
+.intro{
+    width: 1000px;
+    margin: 60px auto;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    line-height: 80px;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #1D00FF;
+    line-height: 80px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: white;
+}
+
+.intro h3{
+    margin-top: 25px;
+}
+
+h4{
+    line-height: 75px; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1D00FF;
+}
+
+h5{
+    color: white;
+    font-family: "montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#vids{
+    background-color: white;
+    position: relative;
+    width: 1200px;
+    height: 1300px;
+    margin: -140px auto;
+}
+
+#vids h4{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.pad{
+    padding-top: 20px;
+}
+
+#accordion{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.ui-accordion-header{
+    border: 1px solid #EBEBEB;
+}
+
+.ui-accordion-header h4{
+    color: #4B4B4B;
+}
+
+.ui-accordion-header-active{
+    border: 1px solid #1D00FF;
+}
+
+.ui-accordion-header-active h4{
+    color: #1D00FF;
+}
+
+.ui-accordion-header img{
+    float: left;
+    margin: 23px 40px 0 20px;  
+    content: url(../img/tr-grey.svg);
+}
+
+.ui-accordion-header-active img{
+    float: left;
+    margin: 17px 40px 0 20px; 
+    content: url(../img/tri-blue.svg);
+}
+
+.dark .ui-accordion-header img{
+    float: left;
+    margin: 23px 40px 0 20px;  
+    content: url(../img/tri-light-grey.svg);
+}
+
+.dark .ui-accordion-header-active img{
+    float: left;
+    margin: 17px 40px 0 20px; 
+    content: url(../img/tri-light.svg);
+}
+
+.vinkje{
+    float: left;
+    position: relative;
+    margin: auto;
+}
+
+.intro{
+
+}
+
+.downloads{
+
+}
+
+.workshop{
+
+}
+
+.player-dimensions{
+    width: 1080px;
+    height: 610px;
+}
+
+#support{
+    position: relative;
+    width: 1080px;
+    height: 820px;
+    margin: 0 auto;
+}
+
+.persoon{
+    float: left;
+    width: 540px;
+    height: 160px;
+    margin-top: 50px;
+}
+
+.circle{
+    float: left;
+    width: 160px;
+    height: 160px;
+    border-radius: 90px;
+    background-color: #1D00FF;
+    overflow: hidden;
+}
+
+.pf1{
+    margin-left: -50px;
+}
+
+.pf2{
+    margin-top: -40px;
+}
+
+.pf3{
+    margin-left: -50px;
+}
+
+.pf4{
+    margin-top: -90px;
+    margin-left: -20px
+}
+
+.naam{
+    float: left;
+    margin: 30px 0 0 20px;
+    font-weight: bold;
+    color: #1D00FF; 
+}
+
+.grey{
+    float: left;
+    color: #4B4B4B;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.mail{
+    float: left;
+    width: 115px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: black;
+    border-color: black;
+}
+
+#uitdaging{
+    position: absolute;
+    float: left;
+    height: 450px;
+    width: 100%;
+    background-image:linear-gradient(to right, rgb(255, 175, 227,0.85), rgb(204, 0, 133, 0.85));
+}
+
+#uitdaging h2{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#uitdaging h3{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.kom{
+    float: left;
+    width: 270px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #1D00FF;
+    border-color: #1D00FF;
+    margin: 50px 41% 0 41%;
+}
+
+.kom h5{
+    color: #FFAFE3;
+}
+
+.fImage{
+    height: 450px;
+    overflow: hidden;
+}
+
+.fImage img{
+    margin-top: -100px; 
+}
+
+#footer{
+    float: left;
+    height: 125px;
+    width: 100%;
+    background-color: black;
+}
+
+#footer h5{
+    float: right;
+    line-height: 125px;
+    margin-right: 20px;
+}
+
+.switch{
+    position: relative;
+    float: right;
+    background-color: #EBEBEB;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 42px 40px 40px 0;
+}
+
+.ball{
+    position: absolute;
+    margin-left: 40px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.zon{
+    float: left;
+    width: 30px;
+    margin: 5px 0 0 5px;
+}
+
+.maan{
+    float: right;
+    width: 25px;
+    margin: 7.5px 7.5px 0 0;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+header.dark img{
+    content: url(../img/logo.svg);
+}
+
+.dark h4{
+    color: white;
+}
+
+.dark h2{
+    color: white;
+}
+
+.darkAc{
+    background-color: black;
+    border-color: #0076FF;
+}
+
+.darkAc h4{
+    color: #0076FF;
+}
+
+.darkBtn{
+    background-color: white;
+}
+
+.darkBtn h5{
+    color: black;
+}
+
+@media screen and (max-width: 1000px){
+    .thumb-cont{
+        max-width: 660px;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .thumb-cont{
+        max-width: 100%;
+    }
+    .thumb-cont a{
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+}
