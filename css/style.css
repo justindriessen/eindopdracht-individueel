@@ -169,6 +169,50 @@ h5{
     margin: 0 auto;
 }
 
+.video-js .vjs-big-play-button {
+display: none;
+}
+
+.video-js .vjs-control-bar {
+    display: none;
+}
+
+.play{
+    position: absolute;
+    width: 90px;
+    margin: -150px 0 0 495px;
+}
+
+.play2{
+    position: absolute;
+    width: 90px;
+    margin: -350px 0 0 495px;
+}
+
+.rewind{
+    position: absolute;
+    width: 60px;
+    margin: -135px 0 0 385px;
+}
+
+.rewind2{
+    position: absolute;
+    width: 60px;
+    margin: -335px 0 0 385px;
+}
+
+.check{
+    position: absolute;
+    width: 60px;
+    margin: -135px 0 0 635px;
+}
+
+.check2{
+    position: absolute;
+    width: 60px;
+    margin: -335px 0 0 635px;
+}
+
 .pad{
     padding-top: 20px;
 }
@@ -218,10 +262,10 @@ h5{
     content: url(../img/tri-light.svg);
 }
 
-.vinkje{
+.vinkje1{
     float: left;
-    position: relative;
-    margin: auto;
+    position: absolute;
+    margin: -100px 0 0 100px;
 }
 
 .intro{
@@ -410,13 +454,22 @@ header.dark img{
     color: white;
 }
 
-.darkAc{
+.darkAc .ui-accordion-header-active{
     background-color: black;
     border-color: #0076FF;
 }
 
-.darkAc h4{
+.darkAc .ui-accordion-header{
+    background-color: black;
+    border-color: white;
+}
+
+.darkAc .ui-accordion-header-active h4{
     color: #0076FF;
+}
+
+.darkAc .ui-accordion-header h4{
+    color: white;
 }
 
 .darkBtn{
@@ -427,7 +480,7 @@ header.dark img{
     color: black;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1080px){
     .thumb-cont{
         max-width: 660px;
     }

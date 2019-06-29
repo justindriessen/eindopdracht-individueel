@@ -1,12 +1,37 @@
-var player = videojs('player');
+var player = videojs("player1","player2","player3","player4","player5");
 var btn = $('.switch');
-
+var playBtn = $('.play');
+var rewindBtn = $('.rewind');
+var checkBtn = $('.check');
 
 $( document ).ready(function() {
     $( "#accordion" ).accordion({
         animate: 1000
     });
 });
+
+$("video").each(function(){
+    $(this).css('width', '1080px');
+    $(this).css('height', '620px');
+});
+
+playBtn.click( function(){
+    if(!player.paused()){
+    player.pause();    
+    }else{
+        player.play();
+    }
+});
+
+rewindBtn.click( function(){
+    var time = player.currentTime();
+    player.currentTime(time - 10);
+});
+
+checkBtn.click( function(){
+    $(this).animate({opacity: 0},500);
+});
+
 
 btn.click( function(){
     if(!$('#footer').hasClass('dark')){
@@ -17,6 +42,7 @@ btn.click( function(){
         $('.pad').addClass('dark');
         $('#accordion').addClass('dark'); 
         $('.ui-accordion-header-active').addClass('darkAc'); 
+        $('.ui-accordion-header').addClass('darkAc'); 
         $('#support').addClass('dark'); 
         $('.persoon h3').addClass('dark');
         $('.mail').addClass('darkBtn');
@@ -29,6 +55,7 @@ btn.click( function(){
         $('.pad').removeClass('dark');
         $('#accordion').removeClass('dark'); 
         $('.ui-accordion-header-active').removeClass('darkAc'); 
+        $('.ui-accordion-header').removeClass('darkAc'); 
         $('#support').removeClass('dark'); 
         $('.persoon h3').removeClass('dark');
         $('.mail').removeClass('darkBtn'); 
