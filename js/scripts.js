@@ -75,6 +75,8 @@ btn.click( function(){
     }else{
         $('#footer').removeClass('dark');
         $('header').removeClass('dark');
+        $('.line').removeClass('dark');
+        $('.nav-links').removeClass('dark');
         $('body').removeClass('dark');
         $('#vids').css('background-color','white');
         $('.pad').removeClass('dark');
