@@ -15,7 +15,12 @@
     <header>
         <img id="logo" src="img/logo-blue.svg" alt="logo">
         <nav>
-            <ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
                 <li><a href="#">over ons</a></li>
                 <li><a href="#">lesmateriaal</a></li>
                 <li><a href="#">contact</a></li>
@@ -25,7 +30,7 @@
 
     <main>
         <div class="fade">
-            <div class="intro">
+            <div class="introtxt">
                 <h1>Van beginner naar expert
                     <br>Het lesmateriaal brengt je verder</h1>
                 <h3>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis<br>
@@ -43,11 +48,11 @@
                 <div>
                     <img src="img/tri-blue.svg" alt="blauwHoek" class="gDriehoek">
                     <h4>Algemene introductie</h4>
-                    <img src="img/tab.svg" alt="vinkje" class="vinkje1">
-                    <!-- <div class="intro"></div> -->
+                    <img src="img/vink.svg" alt="vinkje" class="vinkje1">
+                    <img src="img/intro.svg" alt="intro" class="intro">
                 </div>
-                <div>  
-                    <video id="player1" class="video-js" width="720px" controls>
+                <div class="vidWrap">  
+                    <video id="player1" class="video-js" data-setup = '{"fluid": true}' controls>
                         <source src="vid/small.mp4" type="video/mp4">
                     </video>
                     <img src="img/rewind btn.svg" alt="rewind" class="rewind">
@@ -57,64 +62,73 @@
 
                 <div><img src="img/tr-grey.svg" alt="grijsHoek" class="gDriehoek">
                     <h4>workshop 1: kleuren met code</h4>
-                    <div class="vinkje"></div>
-                    <div class="downloads"></div>
-                    <div class="workshop"></div>
+                    <img src="img/vink.svg" alt="vinkje" class="vinkje2">
+                    <img src="img/download.svg" alt="download" class="download">
+                    <img src="img/workshop.svg" alt="workshop" class="workshop">
                 </div>
-                <div>
-                    <video id="player2" class="video-js vjs.default-skin" width="720px" controls>
+                <div class="vidWrap">
+                    <video id="player2" class="video-js" data-setup = '{"fluid": true}' controls>
                         <source src="vid/small.mp4" type="video/mp4">
                     </video>
-                    <img src="img/rewind btn.svg" alt="rewind" class="rewind2">
-                    <img src="img/play-btn.svg" alt="play" class="play2">
-                    <img src="img/check btn.svg" alt="check" class="check2">
+                    <img src="img/rewind btn.svg" alt="rewind" class="rewind">
+                    <img src="img/play-btn.svg" alt="play" class="play">
+                    <img src="img/check btn.svg" alt="check" class="check">
                 </div>
 
                 <div><img src="img/tr-grey.svg" alt="grijsHoek" class="gDriehoek">
                     <h4>workshop 2: vormen maken</h4>
-                    <div class="vinkje"></div>
-                    <div class="workshop"></div>
+                    <img src="img/vink.svg" alt="vinkje" class="vinkje3">
+                    <img src="img/workshop.svg" alt="workshop" class="workshop">
                 </div>
-                <div>
-                    <video id="player3" class="video-js" width="720px" controls>
+                <div class="vidWrap">
+                    <video id="player3" class="video-js" data-setup = '{"fluid": true}' controls>
                         <source src="vid/small.mp4" type="video/mp4">
                     </video>
-                    <img src="img/rewind btn.svg" alt="rewind" class="rewind2">
-                    <img src="img/play-btn.svg" alt="play" class="play2">
-                    <img src="img/check btn.svg" alt="check" class="check2">
+                    <img src="img/rewind btn.svg" alt="rewind" class="rewind">
+                    <img src="img/play-btn.svg" alt="play" class="play">
+                    <img src="img/check btn.svg" alt="check" class="check">
                 </div>
 
                 <div><img src="img/tr-grey.svg" alt="grijsHoek" class="gDriehoek">
                     <h4>workshop 3: beweging</h4>
-                    <div class="vinkje"></div>
-                    <div class="downloads"></div>
-                    <div class="workshop"></div>
+                    <img src="img/vink.svg" alt="vinkje" class="vinkje4">
+                    <img src="img/download.svg" alt="download" class="download">
+                    <img src="img/workshop.svg" alt="workshop" class="workshop">
                 </div>
-                <div>
-                    <video id="player4" class="video-js" width="720px" controls>
+                <div class="vidWrap">
+                    <video id="player4" class="video-js" data-setup = '{"fluid": true}' controls>
                         <source src="vid/small.mp4" type="video/mp4">
                     </video>
-                    <img src="img/rewind btn.svg" alt="rewind" class="rewind2">
-                    <img src="img/play-btn.svg" alt="play" class="play2">
-                    <img src="img/check btn.svg" alt="check" class="check2">
+                    <img src="img/rewind btn.svg" alt="rewind" class="rewind">
+                    <img src="img/play-btn.svg" alt="play" class="play">
+                    <img src="img/check btn.svg" alt="check" class="check">
                 </div>
 
                 <div><img src="img/tr-grey.svg" alt="grijsHoek" class="gDriehoek">
                     <h4>workshop 4: variabelen gebruiken</h4>
-                    <div class="vinkje"></div>
-                    <div class="workshop"></div>
+                    <img src="img/vink.svg" alt="vinkje" class="vinkje5">
+                    <img src="img/workshop.svg" alt="workshop" class="workshop">
                 </div>
-                <div>
-                    <video id="player5" class="video-js" width="720px" controls>
+                <div class="vidWrap">
+                    <video id="player5" class="video-js" data-setup = '{"fluid": true}' controls>
                         <source src="vid/small.mp4" type="video/mp4">
                     </video>
-                    <img src="img/rewind btn.svg" alt="rewind" class="rewind2">
-                    <img src="img/play-btn.svg" alt="play" class="play2">
-                    <img src="img/check btn.svg" alt="check" class="check2">
+                    <img src="img/rewind btn.svg" alt="rewind" class="rewind">
+                    <img src="img/play-btn.svg" alt="play" class="play">
+                    <img src="img/check btn.svg" alt="check" class="check">
                 </div>
 
             </div>
         </div>
+
+       <div class="bgModal">
+           <div class="modal">
+               <div class="close">+</div>
+               <img src="img/like.svg" alt="like" class="like">
+                <h3>Bedankt voor het kijken <br>naar deze video!</h3>
+                <h4>u kunt nu doorgaan naar de volgende.</h4>
+           </div>
+       </div>
 
         <div id="support">
             <h4>Support</h4>
@@ -124,26 +138,28 @@
                 <div class="circle"><img src="img/kal-visuals-592091-unsplash.jpg" alt="pf1" class="pf1" width="250px"></div>
                 <h3 class="naam">Klaartje Klaassen</h3>
                 <h3 class="grey">Hoofd contactpersoon</h3>
-                <button class="mail"><h5>email</h5></button>
+                <a href="#" class="mail"><h5>email</h5></a>
             </div>
+            <div class=clearSmall></div>
             <div class="persoon">
                 <div class="circle"><img src="img/giorgio-encinas-781653-unsplash.jpg" alt="pf2" class="pf2" width="160px"></div>
                 <h3 class="naam">Klaartje Klaassen</h3>
                 <h3 class="grey">Hoofd contactpersoon</h3>
-                <button class="mail"><h5>email</h5></button>
+                <a href="#" class="mail"><h5>email</h5></a>
             </div>
             <div class="clear"></div>
             <div class="persoon">
                 <div class="circle"><img src="img/norman-toth-177973-unsplash.jpg" alt="pf3" class="pf3" width="250px"></div>
                 <h3 class="naam">Klaartje Klaassen</h3>
                 <h3 class="grey">Hoofd contactpersoon</h3>
-                <button class="mail"><h5>email</h5></button>
+                <a href="#" class="mail"><h5>email</h5></a>
             </div>
+            <div class="clearSmall"></div>
             <div class="persoon">
                 <div class="circle"><img src="img/alina-kovalchuk-1143928-unsplash.jpg" alt="pf4" class="pf4" width="200px"></div>
                 <h3 class="naam">Klaartje Klaassen</h3>
                 <h3 class="grey">Hoofd contactpersoon</h3>
-                <button class="mail"><h5>email</h5></button>
+                <a href="#" class="mail"><h5>email</h5></a>
             </div>
         </div>
 
@@ -151,7 +167,7 @@
             <h2>Klaar voor de
             <br>volgende uitdaging?</h2>
             <h3>in ons expertprogramma vind je lessen voor gevorderden</h3>
-            <button class="kom"><h5>kom maar op</h5></button>
+            <a href="#" class="kom"><h5>kom maar op</h5></a>
         </div>
         <div class="fImage"><img src="img/nicole-wolf-1339717-unsplash.jpg" alt="fImage" width="100%"></div>
 
